@@ -395,7 +395,7 @@ MOBILE
 
             #mobile_nav_ms{
                 display: block;
-                color: black;
+                color: gray;
 
                 &:hover{
                     background: none !important;
@@ -412,7 +412,7 @@ MOBILE
                 a{
                     color: white;
                     font-size: 0.66em;
-                    border-bottom: solid #e6e6e6 !important;
+                    border-bottom: solid darkred !important;
                 }
                 
                 #styleModeMobile_ms{

@@ -376,7 +376,7 @@ MOBILE
   }
   body header #mobile_nav_ms {
     display: block;
-    color: black;
+    color: gray;
   }
   body header #mobile_nav_ms:hover {
     background: none !important;
@@ -392,7 +392,7 @@ MOBILE
   body header #myLinks a {
     color: white;
     font-size: 0.66em;
-    border-bottom: solid #e6e6e6 !important;
+    border-bottom: solid darkred !important;
   }
   body header #myLinks #styleModeMobile_ms #switchLabel {
     top: -90px;
