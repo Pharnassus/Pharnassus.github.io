@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-m",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.18",
+    "postcss": "^8.1.14",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "vue": "^2.6.12"
+  }
+}
