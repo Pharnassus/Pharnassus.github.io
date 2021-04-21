@@ -313,6 +313,40 @@ html[data-theme=dark] a.button:hover {
   color: var(--black) !important;
 }
 
+/*
+===============
+My css header
+===============
+*/
+header #headerLogo {
+  border-radius: 17px;
+  background-color: #F5F5F5;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+header #headerLogo a {
+  text-decoration: none;
+  color: gray;
+}
+header #headerLogo a p {
+  font-weight: 600;
+  font-size: 25px;
+}
+header #headerLogo a p span {
+  font-weight: 1000;
+  color: black;
+}
+header #headerLogo img {
+  max-width: 50px;
+  border-radius: 50px;
+  margin: 10px;
+  margin-left: 20px;
+}
+header nav .links {
+  margin-right: 30px;
+}
+
 #wrapper {
   width: 100%;
   margin: 0 auto;
