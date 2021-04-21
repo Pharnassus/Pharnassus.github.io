@@ -395,6 +395,11 @@ MOBILE
 
             #mobile_nav_ms{
                 display: block;
+                color: black;
+
+                &:hover{
+                    background: none !important;
+                }
             }
 
             #myLinks{

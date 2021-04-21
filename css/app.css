@@ -376,6 +376,10 @@ MOBILE
   }
   body header #mobile_nav_ms {
     display: block;
+    color: black;
+  }
+  body header #mobile_nav_ms:hover {
+    background: none !important;
   }
   body header #myLinks {
     position: relative;
