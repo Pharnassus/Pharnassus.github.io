@@ -358,7 +358,7 @@ DESKTOP
 ===============
 */
 @media screen and (min-width: 850px) {
-  #mobile_nav_ms, #myLinks {
+  #mobile_nav_ms, #myLinks, #styleModeMobile_ms {
     display: none;
   }
 }
@@ -383,15 +383,20 @@ MOBILE
   }
   body header #myLinks {
     position: relative;
-    top: 75px;
+    top: 80px;
     left: 0;
     width: 410px;
-    top: 65px;
+    top: 70px;
     left: -228px;
   }
   body header #myLinks a {
     color: white;
     font-size: 0.66em;
+    border-bottom: solid #e6e6e6 !important;
+  }
+  body header #myLinks #styleModeMobile_ms #switchLabel {
+    top: -90px;
+    right: 17px;
   }
 }
 #wrapper {
