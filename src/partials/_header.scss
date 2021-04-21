@@ -354,3 +354,62 @@ header{
         }
     }
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+===============
+Responsive queries //////////////////////////////////////////////////////////////////////////////////////////////////////
+===============
+*/
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+/*
+===============
+DESKTOP
+===============
+*/
+@media screen and (min-width: 850px) {
+
+    #mobile_nav_ms, #myLinks{
+        display: none;
+    }
+}
+
+
+/*
+===============
+MOBILE
+===============
+*/
+@media screen and (max-width: 850px) {
+
+    body{
+        position: absolute;
+
+        header{
+
+            #desktop_nav_ms, #myLinks, .styleMode{
+                display: none;
+            }
+
+            #mobile_nav_ms{
+                display: block;
+            }
+
+            #myLinks{
+                position: relative;
+                top: 75px;
+                left: 0;
+                width: 410px;
+                top: 65px;
+                left: -228px;
+                a{
+                    color: white;
+                    font-size: 0.66em;
+                }
+            }
+        }
+    }
+
+}

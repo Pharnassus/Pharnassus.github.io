@@ -42,7 +42,12 @@
 }
 
 #box2 {
-    background-image: linear-gradient(to bottom, #011334, #021e49, #042a5e, #073675, #09438c, #214490, #314494, #3f4498, #4e3888, #562c77, #5a1f65, #5b1154);
+    // background-image: linear-gradient(to bottom, #011334, #021e49, #042a5e, #073675, #09438c, #214490, #314494, #3f4498, #4e3888, #562c77, #5a1f65, #5b1154);
+    background-color: white;
+    
+    .content{
+        color: black;
+    }
 }
 
 #box3 {

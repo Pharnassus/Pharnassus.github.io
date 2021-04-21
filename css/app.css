@@ -347,6 +347,49 @@ header nav .links {
   margin-right: 30px;
 }
 
+/*
+===============
+Responsive queries //////////////////////////////////////////////////////////////////////////////////////////////////////
+===============
+*/
+/*
+===============
+DESKTOP
+===============
+*/
+@media screen and (min-width: 850px) {
+  #mobile_nav_ms, #myLinks {
+    display: none;
+  }
+}
+/*
+===============
+MOBILE
+===============
+*/
+@media screen and (max-width: 850px) {
+  body {
+    position: absolute;
+  }
+  body header #desktop_nav_ms, body header #myLinks, body header .styleMode {
+    display: none;
+  }
+  body header #mobile_nav_ms {
+    display: block;
+  }
+  body header #myLinks {
+    position: relative;
+    top: 75px;
+    left: 0;
+    width: 410px;
+    top: 65px;
+    left: -228px;
+  }
+  body header #myLinks a {
+    color: white;
+    font-size: 0.66em;
+  }
+}
 #wrapper {
   width: 100%;
   margin: 0 auto;
@@ -391,7 +434,10 @@ header nav .links {
 }
 
 #box2 {
-  background-image: linear-gradient(to bottom, #011334, #021e49, #042a5e, #073675, #09438c, #214490, #314494, #3f4498, #4e3888, #562c77, #5a1f65, #5b1154);
+  background-color: white;
+}
+#box2 .content {
+  color: black;
 }
 
 #box3 {

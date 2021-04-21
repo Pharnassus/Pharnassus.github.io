@@ -1,4 +1,8 @@
-//Dark/Light Mode
+/*
+===============
+dark-light mode
+===============
+*/
 var themeModeCheck = document.querySelector('input[name=theme]');
 
 themeModeCheck.addEventListener('change', function () {
@@ -18,4 +22,19 @@ let trans = () => {
     window.setTimeout(() => {
         document.documentElement.classList.remove('transition')
     }, 1000)
+}
+
+
+/*
+===============
+haburger icon
+===============
+*/
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
 }
