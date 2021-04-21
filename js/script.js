@@ -36,14 +36,14 @@ function myFunction() {
     if (x.style.display === "block") {
         x.style.display = "none";
         y.style.position = "absolute";
-        y.style.top = "22px";
-        y.style.left = "375px";
-        y.style.fontSize = "30px";
+        y.style.top = "26px";
+        y.style.left = "326px";
+        y.style.fontSize = "25px";
     } else {
         x.style.display = "block";
         y.style.position = "relative";
         y.style.top = "20px";
-        y.style.left = "60px";
+        y.style.left = "20px";
         y.style.fontSize = "30px";
     }
 }
