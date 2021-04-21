@@ -19,8 +19,12 @@ html {
 	height: 100vh;
 	width: 100%;
     margin: 0 auto;
-	overflow: scroll; 	
+	overflow: scroll;    
 	position: fixed;	
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .block {
@@ -32,28 +36,34 @@ html {
 	position: relative;
 }
 
-.caption {
+.content {
 	position: absolute;
+    top: 50%;
 	z-index: 2;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.1);
 	width: 100%;
 	padding: 10px 20px;
-	box-sizing: border-box;
-	height: 50%;
 	bottom: 0;
 	color: #FFF;
 }
 
 #box1 {
-	background-image: url(https://www.cetif.it/wp-content/uploads/2019/06/HR-Tech.jpg);
+    background-image: url(https://ilbolive.unipd.it/sites/default/files/2018-12/hi-tech.jpg);
+    background-size: cover;
 }
 
 #box2 {
-	background-image: url(https://ilbolive.unipd.it/sites/default/files/2018-12/hi-tech.jpg);
+    background-color: white;
     background-size: cover;
 }
 
 #box3 {
-	background-image: url(https://media-exp1.licdn.com/dms/image/C561BAQGR8sPKQfqCcA/company-background_10000/0/1530548392241?e=2159024400&v=beta&t=M2JD0oZ4ehn2f_3AZ-BMMRhCVavuPBEYLEJ7onQzL0M);
+    background-image: url(https://media-exp1.licdn.com/dms/image/C561BAQGR8sPKQfqCcA/company-background_10000/0/1530548392241?e=2159024400&v=beta&t=M2JD0oZ4ehn2f_3AZ-BMMRhCVavuPBEYLEJ7onQzL0M);
     background-size: cover;
 }
+
+#box4 {
+	background-image: url(https://www.adiconsum.it/wp-content/uploads/2019/06/Tecnologia.jpg);
+    background-size: cover;
+}
+
