@@ -328,7 +328,7 @@ header{
 
         a{
             text-decoration: none;
-            color: gray;
+            color: $mainThemeDarken;
 
             p{
                 font-weight: 600;
@@ -345,6 +345,7 @@ header{
             border-radius: 50px;
             margin: 10px;
             margin-left: 20px;
+            background-color: $mainTheme;
         }
     }
 
@@ -395,7 +396,7 @@ MOBILE
 
             #mobile_nav_ms{
                 display: block;
-                color: gray;
+                color: $mainThemeDarken;
 
                 &:hover{
                     background: none !important;
@@ -407,12 +408,14 @@ MOBILE
                 top: 80px;
                 left: 0;
                 width: 410px;
-                top: 70px;
+                top: 75px;
                 left: -228px;
                 a{
-                    color: white;
+                    color: $mainThemeDarken60;
                     font-size: 0.66em;
-                    border-bottom: solid darkred !important;
+                    border-bottom: solid $mainThemeDarken !important;
+                    background-color: $mainTheme;
+                    border: 1px solid $mainThemeDarken;
                 }
                 
                 #styleModeMobile_ms{
@@ -420,6 +423,7 @@ MOBILE
                     #switchLabel{
                         top: -90px;
                         right: 72px;
+                        background: $mainThemeDarken60;
                     }
                 }
             }

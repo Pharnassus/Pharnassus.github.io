@@ -36,9 +36,9 @@ function myFunction() {
     if (x.style.display === "block") {
         x.style.display = "none";
         y.style.position = "absolute";
-        y.style.top = "26px";
+        y.style.top = "27px";
         y.style.left = "326px";
-        y.style.fontSize = "25px";
+        y.style.fontSize = "20px";
     } else {
         x.style.display = "block";
         y.style.position = "relative";

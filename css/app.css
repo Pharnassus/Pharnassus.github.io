@@ -327,7 +327,7 @@ header #headerLogo {
 }
 header #headerLogo a {
   text-decoration: none;
-  color: gray;
+  color: #a5854a;
 }
 header #headerLogo a p {
   font-weight: 600;
@@ -342,6 +342,7 @@ header #headerLogo img {
   border-radius: 50px;
   margin: 10px;
   margin-left: 20px;
+  background-color: #EAE1D0;
 }
 header nav .links {
   margin-right: 30px;
@@ -376,7 +377,7 @@ MOBILE
   }
   body header #mobile_nav_ms {
     display: block;
-    color: gray;
+    color: #a5854a;
   }
   body header #mobile_nav_ms:hover {
     background: none !important;
@@ -386,17 +387,20 @@ MOBILE
     top: 80px;
     left: 0;
     width: 410px;
-    top: 70px;
+    top: 75px;
     left: -228px;
   }
   body header #myLinks a {
-    color: white;
+    color: #5e4c2a;
     font-size: 0.66em;
-    border-bottom: solid darkred !important;
+    border-bottom: solid #a5854a !important;
+    background-color: #EAE1D0;
+    border: 1px solid #a5854a;
   }
   body header #myLinks #styleModeMobile_ms #switchLabel {
     top: -90px;
     right: 72px;
+    background: #5e4c2a;
   }
 }
 #wrapper {
@@ -438,7 +442,7 @@ MOBILE
 }
 
 #box1 {
-  background-image: url(https://ilbolive.unipd.it/sites/default/files/2018-12/hi-tech.jpg);
+  background-image: url(https://www.kappaellecomunicazione.com/wp-content/uploads/2014/10/portfolioBG.jpg);
   background-size: cover;
 }
 
@@ -457,4 +461,44 @@ MOBILE
 #box4 {
   background-image: url(https://www.adiconsum.it/wp-content/uploads/2019/06/Tecnologia.jpg);
   background-size: cover;
+}
+
+/*
+===============
+Responsive queries //////////////////////////////////////////////////////////////////////////////////////////////////////
+===============
+*/
+/*
+===============
+MOBILE
+===============
+*/
+@media screen and (max-width: 850px) {
+  body main #stage .presentation_ms {
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main #stage .presentation_ms img {
+    max-width: 200px;
+    max-height: 200px;
+    background-color: #EAE1D0;
+    border-radius: 100px;
+  }
+  body main #stage .presentation_ms h1 {
+    text-transform: uppercase;
+    color: #EAE1D0;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 0 35px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  body main #stage .content {
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+  }
 }

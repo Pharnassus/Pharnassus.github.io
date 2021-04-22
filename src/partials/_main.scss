@@ -37,7 +37,7 @@
 }
 
 #box1 {
-    background-image: url(https://ilbolive.unipd.it/sites/default/files/2018-12/hi-tech.jpg);
+    background-image: url(https://www.kappaellecomunicazione.com/wp-content/uploads/2014/10/portfolioBG.jpg);
     background-size: cover;
 }
 
@@ -60,3 +60,65 @@
     background-size: cover;
 }
 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+===============
+Responsive queries //////////////////////////////////////////////////////////////////////////////////////////////////////
+===============
+*/
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+/*
+===============
+MOBILE
+===============
+*/
+
+@media screen and (max-width: 850px) {
+
+	body{
+
+		main{
+
+			#stage{
+
+				.presentation_ms{
+
+					padding-top: 160px;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+
+					img{
+						max-width: 200px;
+						max-height: 200px;
+						background-color: $mainTheme;
+						border-radius: 100px;
+					}
+
+					h1{
+						text-transform: uppercase;
+						color: $mainTheme;
+						font-size: 40px;
+						font-weight: 700;
+						letter-spacing: 1px;
+						margin: 0 0 35px;
+						margin-top: 20px;
+						text-align: center;
+						font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;	
+					}
+				}
+
+				.content{
+
+					background: rgba(0, 0, 0, 0.5);
+					top: 0;
+				}
+			}
+		}
+	}
+
+}
