@@ -534,7 +534,7 @@ MOBILE
   body main #stage .portfolio_ms {
     display: flex;
     justify-content: center;
-    height: 1700px;
+    height: 2150px;
   }
   body main #stage .portfolio_ms .content {
     padding-top: 140px;
@@ -567,8 +567,9 @@ MOBILE
     color: white;
   }
   body main #stage .portfolio_ms .content .card {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     background-color: #EAE1D0;
+    box-shadow: 9px 9px 27px 4px #57595d;
   }
   body main #stage .portfolio_ms .content .card .card-body {
     height: 175px;
@@ -587,6 +588,7 @@ MOBILE
     letter-spacing: 0.4px;
   }
   body main #stage .portfolio_ms .content .btn_git_ms {
+    margin-top: 30px;
     border: 1px solid black;
     box-shadow: 3px 1px 19px 6px #eae1d0;
   }

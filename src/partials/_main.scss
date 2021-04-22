@@ -150,7 +150,7 @@ MOBILE
 				.portfolio_ms{
 					display: flex;
 					justify-content: center;
-					height: 1700px;
+					height: 2150px;
 
 					.content{
 						padding-top: 140px;
@@ -187,8 +187,12 @@ MOBILE
 						}
 
 						.card{
-							margin-bottom: 25px;
+							// border: 1px solid $mainThemeDarken;
+							margin-bottom: 30px;
 							background-color: $mainTheme;
+							-webkit-box-shadow: 9px 9px 27px 4px rgba(87,89,93,1);
+-moz-box-shadow: 9px 9px 27px 4px rgba(87,89,93,1);
+box-shadow: 9px 9px 27px 4px rgba(87,89,93,1);
 
 							.card-body{
 								height: 175px;
@@ -210,12 +214,13 @@ MOBILE
 							}
 						}
 
-						.btn_git_ms{							
-
+						.btn_git_ms{		
+							
+							margin-top: 30px;
 							border: 1px solid black;
 							-webkit-box-shadow: 3px 1px 19px 6px rgba(234,225,208,1);
--moz-box-shadow: 3px 1px 19px 6px rgba(234,225,208,1);
-box-shadow: 3px 1px 19px 6px rgba(234,225,208,1);
+							-moz-box-shadow: 3px 1px 19px 6px rgba(234,225,208,1);
+							box-shadow: 3px 1px 19px 6px rgba(234,225,208,1);
 
 							h2{
 
@@ -223,7 +228,7 @@ box-shadow: 3px 1px 19px 6px rgba(234,225,208,1);
 								line-height: 1.5;
 								color: $textColorWhite;
 								margin-bottom: 0;
-								letter-spacing: 0.4px;
+								letter-spacing: 0.4px;								
 
 								i{
 									color: white;
