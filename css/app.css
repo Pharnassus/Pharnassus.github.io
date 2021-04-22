@@ -483,7 +483,7 @@ MOBILE
   body main #stage .presentation_ms img {
     max-width: 200px;
     max-height: 200px;
-    background-color: #EAE1D0;
+    background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");
     border-radius: 100px;
   }
   body main #stage .presentation_ms h1 {
@@ -492,10 +492,27 @@ MOBILE
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 1px;
-    margin: 0 0 35px;
+    margin: 0 0 30px;
     margin-top: 20px;
     text-align: center;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  body main #stage .presentation_ms p {
+    font-weight: 300;
+  }
+  body main #stage .presentation_ms .scroll_page_ms .btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 35px;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+  }
+  body main #stage .presentation_ms .scroll_page_ms .btn-circle i {
+    transition: all 2s ease;
   }
   body main #stage .content {
     background: rgba(0, 0, 0, 0.5);
