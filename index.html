@@ -15,7 +15,9 @@
         <link rel="stylesheet" href="css/app.css">
         
         <!-- fontawesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous" />
 
         <title>Document</title>
 
@@ -24,6 +26,7 @@
     <body id="wrapper">           
         
         <header>
+
             <div id="headerLogo">
                 <a href="#">
                     <img src="img/logo.png" alt="Logo">
@@ -32,19 +35,18 @@
                     <p><span>MARIAN</span> CORLADE</p>
                 </a>
             </div>
-            <nav>
-                
+
+            <nav>                
                 <!--  
                     ===============
                     Links navbar desktop
                     ===============
                 -->            
                 <div class="links" id="desktop_nav_ms">
-                    <a href="#0">PORTFOLIO</a>
-                    <a href="#0">CHI SONO</a>                
-                    <a href="#0">CONTATTI</a>
-                </div>
-                
+                    <a href="#box2">PORTFOLIO</a>
+                    <a href="#box3">CHI SONO</a>                
+                    <a href="#box4">CONTATTI</a>
+                </div>                
                 <!-- end Links navbar desktop -->
                 
                 <!--  
@@ -56,9 +58,9 @@
                     <i id="hamburger_nav_ms" class="fa fa-bars"></i>
                 </a>
                 <div class="links" id="myLinks">
-                    <a href="#0">PORTFOLIO</a>
-                    <a href="#0">CHI SONO</a>
-                    <a href="#0">CONTATTI</a>
+                    <a href="#box2">PORTFOLIO</a>
+                    <a href="#box3">CHI SONO</a>
+                    <a href="#box4">CONTATTI</a>
                     <div id="styleModeMobile_ms">
                         <input type="checkbox" id="switch" name="theme" />
                         <label for="switch" id="switchLabel"></label>
@@ -89,31 +91,95 @@
                         </div>
                     </div>              
                 </div>
-                
-                <div class="block" id="box2">
+                <!-- fine Pagina di presentazione -->
+
+                <!-- Pagina Portfolio -->
+                <div class="block portfolio_ms" id="box2">
                     <div class="content">
-                        <h2>Caption 2</h2>
-                        <p>Sriracha single-origin coffee art party narwhal fingerstache, mixtape brooklyn messenger bag. Irony
-                            chillwave Austin wolf lomo american apparel fixie small batch sustainable VHS.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="block" id="box3">
-                        <div class="content">
-                            <h2>Caption 3</h2>
-                            <p>Dreamcatcher semiotics chambray, banh mi whatever seitan hoodie cosby sweater narwhal keffiyeh etsy
-                                freegan wolf lomo polaroid. Whatever narwhal mumblecore beard +1 artisan. </p>
+
+                        <h1><span>.</span>Portfolio</h1>
+                        <h2>Alcuni dei lavori che ho selezionato...</h2>
+
+                        <!-- card -->
+                        <a href="https://jolly-hermann-d909d4.netlify.app/">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/bootstrap-freelance.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h3>Bootstrap Freelancer Theme Replica</h3>
+                                    <p class="card-text">
+                                        Riproduzione della Homepage del sito di Bootstrap con HTML e CSS.
+                                    </p>                                    
+                                </div>
                             </div>
-                        </div>
+                        </a>
+                        <!-- fine card -->
+
+                        <!-- card -->
+                        <a href="https://adoring-noyce-45e9fb.netlify.app/">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/spotify.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h3>Spotify Web</h3>
+                                    <p class="card-text"> 
+                                        Riproduzione dell'interfaccia del sito di Spotify Web, compreso il lato responsive.
+                                    </p>
+                        
+                                </div>
+                            </div>
+                        </a>
+                        <!-- fine card -->
+
+                        <!-- card -->
+                        <a href="https://nifty-babbage-79a919.netlify.app/">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/boolflix.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h3>Riproduzione sito di Netflix</h3>
+                                    <p class="card-text">                                        
+                                        Riproduzione di un sito simil Netflix con utilizzo delle API del sito "The Movie DB". Ricerca film con chiamate Ajax
+                                        alle API di TMDB, stampa in pagina con l'utilizzo di Vue, manipolazione dei risultati ottenuti.
+                                    </p>
+                        
+                                </div>
+                            </div>
+                        </a>
+                        <!-- fine card -->
+
+                        <a class="btn btn-dark btn_git_ms" href="https://github.com/Pharnassus">
+                            <h2>
+                                ...Ed altri su Git
+                                <i class="fab fa-github-alt"></i>
+                            </h2>                            
+                        </a>
+
                     </div>
-                </main>
+                </div>                
+                <!-- fine Pagina Portfolio -->
                 
-                <footer>
-                    
-                </footer>   
+                <!-- Pagina ChiSono -->
+                <div class="block" id="box3">
+                    <div class="content">
+                        <h2>Caption 3</h2>
+                    </div>
+                </div>
+                <!-- fine Pagina ChiSono -->
+
+                <!-- Pagina Contatti -->
+                <div class="block" id="box3">
+                    <div class="content">
+                        <h2>Caption 3</h2>
+                    </div>
+                </div>
+                <!-- fine Pagina Contatti -->
+            </div>
+        </main>
                 
-                
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-                <script src="js/script.js" charset="utf-8"></script>
-            </body>
-            </html>
+        <footer>
+            
+        </footer>   
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/script.js" charset="utf-8"></script>
+    </body>
+</html>

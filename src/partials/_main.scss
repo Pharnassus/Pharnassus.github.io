@@ -41,10 +41,10 @@
     background-size: cover;
 }
 
-#box2 {
-    // background-image: linear-gradient(to bottom, #011334, #021e49, #042a5e, #073675, #09438c, #214490, #314494, #3f4498, #4e3888, #562c77, #5a1f65, #5b1154);
-    background-color: white;
-    
+#box2 {    
+	background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");   
+    background-size: cover;
+
     .content{
         color: black;
     }
@@ -78,15 +78,21 @@ MOBILE
 */
 
 @media screen and (max-width: 850px) {
-
+	
 	body{
-
+		
 		main{
-
+			
 			#stage{
+				.content{				
+					background: rgba(0, 0, 0, 0.5);
+					top: 0;
 
+				}
+				
+				// <!-- Pagina di presentazione -->
 				.presentation_ms{
-
+					
 					padding-top: 160px;
 					display: flex;
 					flex-direction: column;
@@ -95,7 +101,6 @@ MOBILE
 					img{
 						max-width: 200px;
 						max-height: 200px;
-						// background-color: $mainTheme;
 						background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");
 						border-radius: 100px;
 					}
@@ -139,12 +144,96 @@ MOBILE
 						}
 					}
 				}
+				// <!-- fine Pagina di presentazione -->
 
-				.content{
+				// <!-- Pagina Portfolio -->
+				.portfolio_ms{
+					display: flex;
+					justify-content: center;
+					height: 1700px;
 
-					background: rgba(0, 0, 0, 0.5);
-					top: 0;
+					.content{
+						padding-top: 140px;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+
+						a{
+							text-decoration: none;
+							color: black;
+							z-index: 2;
+						}
+
+						h1{
+							text-align: center;
+							color: $textColorWhite;
+							margin: 0 0 35px;
+							text-transform: uppercase;
+							font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+							font-weight: 700;
+							letter-spacing: 1px;
+							font-size: 30px;
+
+							span{
+								color: red;
+							}
+						}
+
+						h2{
+							margin: 0 0 25px;
+							font-size: 18px;
+							line-height: 1.5;
+							color: $textColorWhite;
+						}
+
+						.card{
+							margin-bottom: 25px;
+							background-color: $mainTheme;
+
+							.card-body{
+								height: 175px;
+							}
+
+							h3{
+								font-size: 17px;
+								margin-bottom: 15px;
+								color: $mainThemeDarken60;
+								font-weight: 600;
+								letter-spacing: 0.1px;
+							}
+
+							p{
+								font-size: 15px;
+								color: $mainThemeDarken;
+								font-weight: 500;
+								letter-spacing: 0.4px;
+							}
+						}
+
+						.btn_git_ms{							
+
+							border: 1px solid black;
+							-webkit-box-shadow: 3px 1px 19px 6px rgba(234,225,208,1);
+-moz-box-shadow: 3px 1px 19px 6px rgba(234,225,208,1);
+box-shadow: 3px 1px 19px 6px rgba(234,225,208,1);
+
+							h2{
+
+								font-size: 18px;
+								line-height: 1.5;
+								color: $textColorWhite;
+								margin-bottom: 0;
+								letter-spacing: 0.4px;
+
+								i{
+									color: white;
+								}
+							}							
+						}
+					}
 				}
+				// <!-- fine Pagina Portfolio -->
+
 			}
 		}
 	}

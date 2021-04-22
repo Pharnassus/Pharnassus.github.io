@@ -455,7 +455,8 @@ MOBILE
 }
 
 #box2 {
-  background-color: white;
+  background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");
+  background-size: cover;
 }
 #box2 .content {
   color: black;
@@ -482,6 +483,10 @@ MOBILE
 ===============
 */
 @media screen and (max-width: 850px) {
+  body main #stage .content {
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+  }
   body main #stage .presentation_ms {
     padding-top: 160px;
     display: flex;
@@ -526,8 +531,73 @@ MOBILE
   body main #stage .presentation_ms .scroll_page_ms .btn-circle i {
     transition: all 1s ease;
   }
-  body main #stage .content {
-    background: rgba(0, 0, 0, 0.5);
-    top: 0;
+  body main #stage .portfolio_ms {
+    display: flex;
+    justify-content: center;
+    height: 1700px;
+  }
+  body main #stage .portfolio_ms .content {
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main #stage .portfolio_ms .content a {
+    text-decoration: none;
+    color: black;
+    z-index: 2;
+  }
+  body main #stage .portfolio_ms .content h1 {
+    text-align: center;
+    color: white;
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+  body main #stage .portfolio_ms .content h1 span {
+    color: red;
+  }
+  body main #stage .portfolio_ms .content h2 {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+  }
+  body main #stage .portfolio_ms .content .card {
+    margin-bottom: 25px;
+    background-color: #EAE1D0;
+  }
+  body main #stage .portfolio_ms .content .card .card-body {
+    height: 175px;
+  }
+  body main #stage .portfolio_ms .content .card h3 {
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #5e4c2a;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+  }
+  body main #stage .portfolio_ms .content .card p {
+    font-size: 15px;
+    color: #a5854a;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+  }
+  body main #stage .portfolio_ms .content .btn_git_ms {
+    border: 1px solid black;
+    box-shadow: 3px 1px 19px 6px #eae1d0;
+  }
+  body main #stage .portfolio_ms .content .btn_git_ms h2 {
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 0;
+    letter-spacing: 0.4px;
+  }
+  body main #stage .portfolio_ms .content .btn_git_ms h2 i {
+    color: white;
   }
 }
