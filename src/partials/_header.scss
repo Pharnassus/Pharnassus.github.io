@@ -298,7 +298,7 @@ Dark Mode Styles
 */
 
 html[data-theme='dark'] .links a {
-  color: var(--blac);
+  color: $mainThemeDarken;
 }
 
 html[data-theme='dark'] a.button {
@@ -352,6 +352,11 @@ header{
     nav{
         .links{
             margin-right: 30px;
+            
+            a{
+              color: $mainThemeDarken;
+              border-bottom: solid $mainThemeDarken60;
+            }
         }
     }
 }
