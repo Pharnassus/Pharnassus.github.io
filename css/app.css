@@ -463,7 +463,7 @@ MOBILE
 }
 
 #box3 {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C561BAQGR8sPKQfqCcA/company-background_10000/0/1530548392241?e=2159024400&v=beta&t=M2JD0oZ4ehn2f_3AZ-BMMRhCVavuPBEYLEJ7onQzL0M);
+  background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");
   background-size: cover;
 }
 
@@ -601,5 +601,37 @@ MOBILE
   }
   body main #stage .portfolio_ms .content .btn_git_ms h2 i {
     color: white;
+  }
+  body main #stage .chi_sono_ms {
+    display: flex;
+    justify-content: center;
+    height: 2150px;
+  }
+  body main #stage .chi_sono_ms .chi_sono2_ms {
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main #stage .chi_sono_ms .chi_sono2_ms img {
+    max-width: 200px;
+    max-height: 200px;
+    background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");
+    border-radius: 100px;
+    box-shadow: 0px 2px 27px 0px white;
+  }
+  body main #stage .chi_sono_ms .chi_sono2_ms h1 {
+    text-align: center;
+    color: white;
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  body main #stage .chi_sono_ms .chi_sono2_ms h1 span {
+    color: red;
   }
 }

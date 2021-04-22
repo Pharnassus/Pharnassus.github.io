@@ -51,7 +51,7 @@
 }
 
 #box3 {
-    background-image: url(https://media-exp1.licdn.com/dms/image/C561BAQGR8sPKQfqCcA/company-background_10000/0/1530548392241?e=2159024400&v=beta&t=M2JD0oZ4ehn2f_3AZ-BMMRhCVavuPBEYLEJ7onQzL0M);
+    background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");   
     background-size: cover;
 }
 
@@ -191,8 +191,8 @@ MOBILE
 							margin-bottom: 30px;
 							background-color: $mainTheme;
 							-webkit-box-shadow: 9px 9px 27px 4px rgba(87,89,93,1);
--moz-box-shadow: 9px 9px 27px 4px rgba(87,89,93,1);
-box-shadow: 9px 9px 27px 4px rgba(87,89,93,1);
+							-moz-box-shadow: 9px 9px 27px 4px rgba(87,89,93,1);
+							box-shadow: 9px 9px 27px 4px rgba(87,89,93,1);
 
 							.card-body{
 								height: 175px;
@@ -238,6 +238,49 @@ box-shadow: 9px 9px 27px 4px rgba(87,89,93,1);
 					}
 				}
 				// <!-- fine Pagina Portfolio -->
+
+				// <!-- Pagina di chi sono -->
+				.chi_sono_ms{
+					display: flex;
+					justify-content: center;
+					height: 2150px;
+					
+					.chi_sono2_ms{
+					
+						padding-top: 160px;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+
+						img{
+							max-width: 200px;
+							max-height: 200px;
+							background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");
+							border-radius: 100px;
+							-webkit-box-shadow: 0px 2px 27px 0px rgba(255,255,255,1);
+							-moz-box-shadow: 0px 2px 27px 0px rgba(255,255,255,1);
+							box-shadow: 0px 2px 27px 0px rgba(255,255,255,1);
+						}
+
+						h1{
+							text-align: center;
+							color: $textColorWhite;
+							margin: 0 0 35px;
+							text-transform: uppercase;
+							font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+							font-weight: 700;
+							letter-spacing: 1px;
+							font-size: 30px;
+							margin-top: 30px;
+
+							span{
+								color: red;
+							}
+						}
+						
+					}
+				}
+				// <!-- fine Pagina di chi sono -->
 
 			}
 		}
