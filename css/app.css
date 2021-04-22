@@ -398,8 +398,12 @@ MOBILE
     color: #5e4c2a;
     font-size: 0.66em;
     border-bottom: solid #a5854a !important;
-    background-color: #EAE1D0;
     border: 1px solid #a5854a;
+    background-color: #EAE1D0 !important;
+  }
+  body header #myLinks a:hover {
+    background-color: #a5854a !important;
+    border-bottom: solid #EAE1D0 !important;
   }
   body header #myLinks #styleModeMobile_ms #switchLabel {
     top: -90px;

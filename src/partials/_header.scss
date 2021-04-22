@@ -419,8 +419,13 @@ MOBILE
                     color: $mainThemeDarken60;
                     font-size: 0.66em;
                     border-bottom: solid $mainThemeDarken !important;
-                    background-color: $mainTheme;
                     border: 1px solid $mainThemeDarken;
+                    background-color: $mainTheme !important;                    
+                    
+                    &:hover{
+                      background-color: $mainThemeDarken !important;
+                      border-bottom: solid $mainTheme !important;
+                    }
                 }
                 
                 #styleModeMobile_ms{
