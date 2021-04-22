@@ -58,7 +58,7 @@
 }
 
 #box4 {
-	background-image: url(https://www.performail.it/wp-content/uploads/2016/03/HP2.jpg);
+	background-image: url(https://images6.alphacoders.com/346/thumb-1920-346993.jpg);
     background-size: cover;
 	background-position: top;
 }
@@ -293,6 +293,38 @@ MOBILE
 				}
 				// <!-- fine Pagina di chi sono -->
 
+				// <!-- Pagina contatti -->
+				#box4{
+
+					display: flex;
+					justify-content: center;
+
+					.content{
+
+							padding-top: 125px;
+							display: flex;
+							flex-direction: column;
+							align-items: center;
+
+						h1{
+
+							text-align: center;
+							color: $textColorWhite;
+							margin: 0 0 35px;
+							text-transform: uppercase;
+							font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+							font-weight: 700;
+							letter-spacing: 1px;
+							font-size: 25px;
+							margin-top: 30px;
+
+							span{
+								color: red;
+							}
+						}
+					}
+				}
+				// <!-- fine Pagina contatti -->
 			}
 		}
 	}
