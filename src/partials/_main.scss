@@ -261,8 +261,8 @@ box-shadow: -1px 1px 27px 0px rgba(107,39,4,1);
 							background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");
 							border-radius: 100px;
 							-webkit-box-shadow: 0px 0px 27px -3px rgba(187,116,28,1);
--moz-box-shadow: 0px 0px 27px -3px rgba(187,116,28,1);
-box-shadow: 0px 0px 27px -3px rgba(187,116,28,1);
+							-moz-box-shadow: 0px 0px 27px -3px rgba(187,116,28,1);
+							box-shadow: 0px 0px 27px -3px rgba(187,116,28,1);
 						}
 
 						h1{
@@ -301,7 +301,7 @@ box-shadow: 0px 0px 27px -3px rgba(187,116,28,1);
 
 					.content{
 
-							padding-top: 125px;
+							padding-top: 160px;
 							display: flex;
 							flex-direction: column;
 							align-items: center;
