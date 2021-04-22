@@ -572,7 +572,7 @@ MOBILE
   body main #stage .portfolio_ms .content .card {
     margin-bottom: 30px;
     background-color: #EAE1D0;
-    box-shadow: 9px 9px 27px 4px #57595d;
+    box-shadow: -1px 1px 27px 0px #6b2704;
   }
   body main #stage .portfolio_ms .content .card .card-body {
     height: 175px;
@@ -593,17 +593,17 @@ MOBILE
   body main #stage .portfolio_ms .content .btn_git_ms {
     margin-top: 30px;
     border: 1px solid black;
-    box-shadow: 3px 1px 19px 6px #eae1d0;
+    box-shadow: -1px 1px 27px 0px #bb741c;
   }
   body main #stage .portfolio_ms .content .btn_git_ms h2 {
     font-size: 18px;
     line-height: 1.5;
-    color: white;
+    color: #c7963c;
     margin-bottom: 0;
     letter-spacing: 0.4px;
   }
   body main #stage .portfolio_ms .content .btn_git_ms h2 i {
-    color: white;
+    color: #BB741C;
   }
   body main #stage .chi_sono_ms {
     display: flex;
@@ -621,7 +621,7 @@ MOBILE
     max-height: 200px;
     background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");
     border-radius: 100px;
-    box-shadow: 0px 2px 27px 0px white;
+    box-shadow: 0px 0px 27px -3px #bb741c;
   }
   body main #stage .chi_sono_ms .chi_sono2_ms h1 {
     text-align: center;
