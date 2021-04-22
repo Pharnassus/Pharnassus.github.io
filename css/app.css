@@ -455,21 +455,24 @@ MOBILE
 }
 
 #box2 {
-  background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");
+  background-image: url(https://image.freepik.com/premium-vector/luxurious-dark-brown-background-design_95742-264.jpg);
   background-size: cover;
+  background-position: left;
 }
 #box2 .content {
   color: black;
 }
 
 #box3 {
-  background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");
+  background-image: url(https://image.freepik.com/premium-vector/luxurious-dark-brown-background-design_95742-264.jpg);
   background-size: cover;
+  background-position: left;
 }
 
 #box4 {
-  background-image: url(https://www.adiconsum.it/wp-content/uploads/2019/06/Tecnologia.jpg);
+  background-image: url(https://www.performail.it/wp-content/uploads/2016/03/HP2.jpg);
   background-size: cover;
+  background-position: top;
 }
 
 /*
@@ -605,7 +608,7 @@ MOBILE
   body main #stage .chi_sono_ms {
     display: flex;
     justify-content: center;
-    height: 2150px;
+    height: 1150px;
   }
   body main #stage .chi_sono_ms .chi_sono2_ms {
     padding-top: 160px;
@@ -633,5 +636,12 @@ MOBILE
   }
   body main #stage .chi_sono_ms .chi_sono2_ms h1 span {
     color: red;
+  }
+  body main #stage .chi_sono_ms .chi_sono2_ms p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
   }
 }
