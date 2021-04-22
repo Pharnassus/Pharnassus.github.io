@@ -80,7 +80,7 @@ MOBILE
 ===============
 */
 
-@media screen and (max-width: 850px) {
+// @media screen and (max-width: 850px) {
 	
 	body{
 		
@@ -194,8 +194,8 @@ MOBILE
 							margin-bottom: 30px;
 							background-color: $mainTheme;
 							-webkit-box-shadow: -1px 1px 27px 0px rgba(107,39,4,1);
--moz-box-shadow: -1px 1px 27px 0px rgba(107,39,4,1);
-box-shadow: -1px 1px 27px 0px rgba(107,39,4,1);
+							-moz-box-shadow: -1px 1px 27px 0px rgba(107,39,4,1);
+							box-shadow: -1px 1px 27px 0px rgba(107,39,4,1);
 
 							.card-body{
 								height: 175px;
@@ -373,4 +373,4 @@ box-shadow: -1px 1px 27px 0px rgba(107,39,4,1);
 		}
 	}
 
-}
+// }

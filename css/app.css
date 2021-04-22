@@ -485,227 +485,225 @@ Responsive queries /////////////////////////////////////////////////////////////
 MOBILE
 ===============
 */
-@media screen and (max-width: 850px) {
-  body main #stage .content {
-    background: rgba(0, 0, 0, 0.5);
-    top: 0;
-  }
-  body main #stage .presentation_ms {
-    padding-top: 160px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  body main #stage .presentation_ms img {
-    max-width: 200px;
-    max-height: 200px;
-    background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");
-    border-radius: 100px;
-  }
-  body main #stage .presentation_ms h1 {
-    text-transform: uppercase;
-    color: #EAE1D0;
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin: 0 0 30px;
-    margin-top: 20px;
-    text-align: center;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-  body main #stage .presentation_ms p {
-    font-weight: 300;
-  }
-  body main #stage .presentation_ms .scroll_page_ms {
-    margin-top: 20px;
-  }
-  body main #stage .presentation_ms .scroll_page_ms .btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 5px 16px;
-    border: 2px solid #fff;
-    border-radius: 35px;
-    font-size: 40px;
-    color: #fff;
-    background: 0 0;
-    transition: all 1s ease;
-  }
-  body main #stage .presentation_ms .scroll_page_ms .btn-circle i {
-    transition: all 1s ease;
-  }
-  body main #stage .portfolio_ms {
-    display: flex;
-    justify-content: center;
-    height: 2150px;
-  }
-  body main #stage .portfolio_ms .content {
-    padding-top: 140px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  body main #stage .portfolio_ms .content a {
-    text-decoration: none;
-    color: black;
-    z-index: 2;
-  }
-  body main #stage .portfolio_ms .content h1 {
-    text-align: center;
-    color: white;
-    margin: 0 0 35px;
-    text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 30px;
-  }
-  body main #stage .portfolio_ms .content h1 span {
-    color: red;
-  }
-  body main #stage .portfolio_ms .content h2 {
-    margin: 0 0 25px;
-    font-size: 18px;
-    line-height: 1.5;
-    color: white;
-  }
-  body main #stage .portfolio_ms .content .card {
-    margin-bottom: 30px;
-    background-color: #EAE1D0;
-    box-shadow: -1px 1px 27px 0px #6b2704;
-  }
-  body main #stage .portfolio_ms .content .card .card-body {
-    height: 175px;
-  }
-  body main #stage .portfolio_ms .content .card h3 {
-    font-size: 17px;
-    margin-bottom: 15px;
-    color: #5e4c2a;
-    font-weight: 600;
-    letter-spacing: 0.1px;
-  }
-  body main #stage .portfolio_ms .content .card p {
-    font-size: 15px;
-    color: #a5854a;
-    font-weight: 500;
-    letter-spacing: 0.4px;
-  }
-  body main #stage .portfolio_ms .content .btn_git_ms {
-    margin-top: 30px;
-    border: 1px solid black;
-    box-shadow: -1px 1px 27px 0px #bb741c;
-  }
-  body main #stage .portfolio_ms .content .btn_git_ms h2 {
-    font-size: 18px;
-    line-height: 1.5;
-    color: #c7963c;
-    margin-bottom: 0;
-    letter-spacing: 0.4px;
-  }
-  body main #stage .portfolio_ms .content .btn_git_ms h2 i {
-    color: #BB741C;
-  }
-  body main #stage .chi_sono_ms {
-    display: flex;
-    justify-content: center;
-    height: 1150px;
-  }
-  body main #stage .chi_sono_ms .chi_sono2_ms {
-    padding-top: 160px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  body main #stage .chi_sono_ms .chi_sono2_ms img {
-    max-width: 200px;
-    max-height: 200px;
-    background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");
-    border-radius: 100px;
-    box-shadow: 0px 0px 27px -3px #bb741c;
-  }
-  body main #stage .chi_sono_ms .chi_sono2_ms h1 {
-    text-align: center;
-    color: white;
-    margin: 0 0 35px;
-    text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 30px;
-    margin-top: 30px;
-  }
-  body main #stage .chi_sono_ms .chi_sono2_ms h1 span {
-    color: red;
-  }
-  body main #stage .chi_sono_ms .chi_sono2_ms p {
-    font-family: "Lato", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: justify;
-  }
-  body main #stage #box4 {
-    display: flex;
-    justify-content: center;
-  }
-  body main #stage #box4 .content {
-    padding-top: 160px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  body main #stage #box4 .content h1 {
-    text-align: center;
-    color: white;
-    margin: 0 0 35px;
-    text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 25px;
-    margin-top: 30px;
-  }
-  body main #stage #box4 .content h1 span {
-    color: red;
-  }
-  body main #stage #box4 .content p {
-    text-align: center;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-  }
-  body main #stage #box4 .content p small {
-    font-size: 85%;
-  }
-  body main #stage #box4 .content p:first-of-type {
-    font-size: 18px;
-    line-height: 1.5;
-  }
-  body main #stage #box4 .content h4 {
-    margin: 20px 0 25px;
-    text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 18px;
-    text-align: center;
-    color: #EAE1D0;
-  }
-  body main #stage #box4 .content a {
-    text-decoration: none;
-    color: white;
-    margin: 15px 0 17px;
-    font-size: 18px;
-  }
-  body main #stage #box4 .content a i {
-    font-size: 20px;
-    color: #EAE1D0;
-  }
-  body main #stage #box4 .content p:last-of-type {
-    margin: 15px 0 17px;
-    font-size: 18px;
-  }
-  body main #stage #box4 .content p:last-of-type i {
-    font-size: 20px;
-    color: #EAE1D0;
-  }
+body main #stage .content {
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+}
+body main #stage .presentation_ms {
+  padding-top: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main #stage .presentation_ms img {
+  max-width: 200px;
+  max-height: 200px;
+  background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");
+  border-radius: 100px;
+}
+body main #stage .presentation_ms h1 {
+  text-transform: uppercase;
+  color: #EAE1D0;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 0 30px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body main #stage .presentation_ms p {
+  font-weight: 300;
+}
+body main #stage .presentation_ms .scroll_page_ms {
+  margin-top: 20px;
+}
+body main #stage .presentation_ms .scroll_page_ms .btn-circle {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 5px 16px;
+  border: 2px solid #fff;
+  border-radius: 35px;
+  font-size: 40px;
+  color: #fff;
+  background: 0 0;
+  transition: all 1s ease;
+}
+body main #stage .presentation_ms .scroll_page_ms .btn-circle i {
+  transition: all 1s ease;
+}
+body main #stage .portfolio_ms {
+  display: flex;
+  justify-content: center;
+  height: 2150px;
+}
+body main #stage .portfolio_ms .content {
+  padding-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main #stage .portfolio_ms .content a {
+  text-decoration: none;
+  color: black;
+  z-index: 2;
+}
+body main #stage .portfolio_ms .content h1 {
+  text-align: center;
+  color: white;
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+body main #stage .portfolio_ms .content h1 span {
+  color: red;
+}
+body main #stage .portfolio_ms .content h2 {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: white;
+}
+body main #stage .portfolio_ms .content .card {
+  margin-bottom: 30px;
+  background-color: #EAE1D0;
+  box-shadow: -1px 1px 27px 0px #6b2704;
+}
+body main #stage .portfolio_ms .content .card .card-body {
+  height: 175px;
+}
+body main #stage .portfolio_ms .content .card h3 {
+  font-size: 17px;
+  margin-bottom: 15px;
+  color: #5e4c2a;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+}
+body main #stage .portfolio_ms .content .card p {
+  font-size: 15px;
+  color: #a5854a;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+body main #stage .portfolio_ms .content .btn_git_ms {
+  margin-top: 30px;
+  border: 1px solid black;
+  box-shadow: -1px 1px 27px 0px #bb741c;
+}
+body main #stage .portfolio_ms .content .btn_git_ms h2 {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #c7963c;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
+}
+body main #stage .portfolio_ms .content .btn_git_ms h2 i {
+  color: #BB741C;
+}
+body main #stage .chi_sono_ms {
+  display: flex;
+  justify-content: center;
+  height: 1150px;
+}
+body main #stage .chi_sono_ms .chi_sono2_ms {
+  padding-top: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main #stage .chi_sono_ms .chi_sono2_ms img {
+  max-width: 200px;
+  max-height: 200px;
+  background-image: url("https://www.fapceramiche.com/media/products/images/article/generated_fap_colornow_2016_beige_305x915_fondo_1600x1600_palette_fMRP_1_wr.jpg.520x516_q85_crop_upscale.jpg");
+  border-radius: 100px;
+  box-shadow: 0px 0px 27px -3px #bb741c;
+}
+body main #stage .chi_sono_ms .chi_sono2_ms h1 {
+  text-align: center;
+  color: white;
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 30px;
+  margin-top: 30px;
+}
+body main #stage .chi_sono_ms .chi_sono2_ms h1 span {
+  color: red;
+}
+body main #stage .chi_sono_ms .chi_sono2_ms p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: justify;
+}
+body main #stage #box4 {
+  display: flex;
+  justify-content: center;
+}
+body main #stage #box4 .content {
+  padding-top: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main #stage #box4 .content h1 {
+  text-align: center;
+  color: white;
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+body main #stage #box4 .content h1 span {
+  color: red;
+}
+body main #stage #box4 .content p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+body main #stage #box4 .content p small {
+  font-size: 85%;
+}
+body main #stage #box4 .content p:first-of-type {
+  font-size: 18px;
+  line-height: 1.5;
+}
+body main #stage #box4 .content h4 {
+  margin: 20px 0 25px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 18px;
+  text-align: center;
+  color: #EAE1D0;
+}
+body main #stage #box4 .content a {
+  text-decoration: none;
+  color: white;
+  margin: 15px 0 17px;
+  font-size: 18px;
+}
+body main #stage #box4 .content a i {
+  font-size: 20px;
+  color: #EAE1D0;
+}
+body main #stage #box4 .content p:last-of-type {
+  margin: 15px 0 17px;
+  font-size: 18px;
+}
+body main #stage #box4 .content p:last-of-type i {
+  font-size: 20px;
+  color: #EAE1D0;
 }
